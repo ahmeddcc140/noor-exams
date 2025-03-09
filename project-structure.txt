@@ -1,0 +1,18 @@
+noor-exams/
+├── frontend/                # Next.js Application
+│   ├── app/
+│   │   ├── admin/          # لوحة تحكم الإداريين
+│   │   ├── teacher/        # لوحة تحكم المعلمين
+│   │   ├── student/        # واجهة الطلاب
+│   │   └── auth/           # صفحات المصادقة
+│   ├── components/
+│   │   ├── ui/            # مكونات واجهة المستخدم
+│   │   ├── forms/         # نماذج الإدخال
+│   │   └── shared/        # مكونات مشتركة
+│   └── public/
+├── backend/                # Node.js & Express API
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── middleware/
+└── database/              # MongoDB Schemas
